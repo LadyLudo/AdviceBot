@@ -9,23 +9,45 @@ function APIRandomAdvice(searchURL) {
             }
             throw new Error(response.statusText);
         })
-        .then(responseJson => displayAdvice(responseJson))
+        .then(responseJson => displayRandomAdvice(responseJson))
         .catch(err => {
             console.log(`something went wrong: ${err.message}`);
         });
 }
-function displayAdvice(responseJson) {
+function APISpecificAdvice(searchURL) {
+    fetch (searchURL)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error(response.statusText);
+        })
+        .then(responseJson => displaySpecificAdvice(responseJson))
+        .catch(err => {
+            console.log(`something went wrong: ${err.message}`);
+        });
+}
+function displayRandomAdvice(responseJson) {
     console.log(responseJson);
     $('.adviceText').text(`"${responseJson.slip.advice}`);
     $('.loadingScreen').toggleClass('hidden');
     $('.resultsScreen').toggleClass('hidden');
 }
+function displaySpecificAdvice(responseJson) {
+    console.log(responseJson);
+    $('.adviceText').text(`"${responseJson.slips[0].advice}`);
+    $('.loadingScreen').toggleClass('hidden');
+    $('.resultsScreen').toggleClass('hidden');
+}
 
 
-function getAdviceButton() {
+function specificAdviceButton() {
     $('form').submit(function(event) {
         console.log('getAdviceButton pressed')
         event.preventDefault();
+        let query = $('input[name=category]').val();
+        let searchURL = baseURL + '/search/' + query;
+        APISpecificAdvice(searchURL);
         $('.specificScreen').toggleClass('hidden');
         $('.loadingScreen').toggleClass('hidden');
         }
@@ -61,7 +83,7 @@ function specificButton() {
 function watchButtons() {
     randomButton();
     specificButton();
-    getAdviceButton();
+    specificAdviceButton();
     restartButton();
 }
 function runPage() {
