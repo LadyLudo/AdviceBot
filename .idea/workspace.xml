@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +16,7 @@
   </component>
   <component name="ProjectId" id="1UtSAL2K2O095pwSJgd1qbisIQm" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -42,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576174253657</updated>
-      <workItem from="1576174255790" duration="6171000" />
+      <workItem from="1576174255790" duration="7280000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576184126568</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added results screen&#10;+initial random advice fetch">
+      <created>1576187423935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576187423936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
     <MESSAGE value="finished basic home screen layout" />
     <MESSAGE value="added loading screen&#10;+js functionality on random button" />
     <MESSAGE value="added specific screen&#10;+js functionality on specificScreen button&#10;+js functionality on getAdvice button" />
-    <option name="LAST_COMMIT_MESSAGE" value="added specific screen&#10;+js functionality on specificScreen button&#10;+js functionality on getAdvice button" />
+    <MESSAGE value="Added results screen&#10;+initial random advice fetch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added results screen&#10;+initial random advice fetch" />
   </component>
 </project>

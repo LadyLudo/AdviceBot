@@ -1,19 +1,24 @@
 const baseURL = 'https://api.adviceslip.com/advice'
 
 
-function APIRandomAdvice() {
-    fetch (baseURL)
+function APIRandomAdvice(searchURL) {
+    fetch (searchURL)
         .then(response => {
             if (response.ok) {
                 return response.json();
             }
             throw new Error(response.statusText);
         })
-        .then(responseJson => console.log(responseJson))
+        .then(responseJson => displayAdvice(responseJson))
         .catch(err => {
             console.log(`something went wrong: ${err.message}`);
         });
-
+}
+function displayAdvice(responseJson) {
+    console.log(responseJson);
+    $('.adviceText').text(`"${responseJson.slip.advice}`);
+    $('.loadingScreen').toggleClass('hidden');
+    $('.resultsScreen').toggleClass('hidden');
 }
 
 
@@ -28,10 +33,20 @@ function getAdviceButton() {
 }
 function randomButton() {
     $('#randomButton').on('click', function() {
-        APIRandomAdvice();
+        APIRandomAdvice(baseURL);
         console.log('randomButton pressed');
         $('.homeScreen').toggleClass('hidden');
         $('.loadingScreen').toggleClass('hidden');
+    })
+}
+function replayButton() {
+
+}
+function restartButton() {
+    $('#restartButton').on('click', function (){
+        console.log('restartButton pressed');
+        $('.resultsScreen').toggleClass('hidden');
+        $('.homeScreen').toggleClass('hidden');
     })
 }
 function specificButton() {
@@ -47,6 +62,7 @@ function watchButtons() {
     randomButton();
     specificButton();
     getAdviceButton();
+    restartButton();
 }
 function runPage() {
     watchButtons();
