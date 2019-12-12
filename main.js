@@ -13,6 +13,7 @@ function APIRandomAdvice(searchURL) {
         .catch(err => {
             console.log(`something went wrong: ${err.message}`);
         });
+
 }
 function APISpecificAdvice(searchURL) {
     fetch (searchURL)
@@ -23,15 +24,14 @@ function APISpecificAdvice(searchURL) {
             throw new Error(response.statusText);
         })
         .then(responseJson => displaySpecificAdvice(responseJson))
-        .catch(err => {
-            console.log(`something went wrong: ${err.message}`);
+        .catch(function displayErrorMessage() {
+            $('.errorMessage').text("Sorry, I don't have advice on that topic. Try another.");
+            $('.loadingScreen').toggleClass('hidden');
+            $('.errorScreen').toggleClass('hidden');
         });
+
 }
-function displayErrorMessage(messageText) {
-    $('.errorMessage').text(messageText);
-    $('.loadingScreen').toggleClass('hidden');
-    $('.errorScreen').toggleClass('hidden');
-}
+
 function displayRandomAdvice(responseJson) {
     console.log(responseJson);
     $('.adviceText').text(`"${responseJson.slip.advice}`);
@@ -40,12 +40,9 @@ function displayRandomAdvice(responseJson) {
 }
 function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
-    if (responseJson.message.type === "notice"){
-        displayErrorMessage(responseJson.message.text);
-    } else {
-        $('.adviceText').text(`"${responseJson.slips[0].advice}`);
+        $('.adviceText').text(`"${responseJson.slips[0].advice}"`);
         $('.loadingScreen').toggleClass('hidden');
-        $('.resultsScreen').toggleClass('hidden');}
+        $('.resultsScreen').toggleClass('hidden');
 }
 
 function errorRestartButton() {
