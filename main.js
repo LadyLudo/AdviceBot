@@ -27,6 +27,11 @@ function APISpecificAdvice(searchURL) {
             console.log(`something went wrong: ${err.message}`);
         });
 }
+function displayErrorMessage(messageText) {
+    $('.errorMessage').text(messageText);
+    $('.loadingScreen').toggleClass('hidden');
+    $('.errorScreen').toggleClass('hidden');
+}
 function displayRandomAdvice(responseJson) {
     console.log(responseJson);
     $('.adviceText').text(`"${responseJson.slip.advice}`);
@@ -35,12 +40,21 @@ function displayRandomAdvice(responseJson) {
 }
 function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
-    $('.adviceText').text(`"${responseJson.slips[0].advice}`);
-    $('.loadingScreen').toggleClass('hidden');
-    $('.resultsScreen').toggleClass('hidden');
+    if (responseJson.message.type === "notice"){
+        displayErrorMessage(responseJson.message.text);
+    } else {
+        $('.adviceText').text(`"${responseJson.slips[0].advice}`);
+        $('.loadingScreen').toggleClass('hidden');
+        $('.resultsScreen').toggleClass('hidden');}
 }
 
-
+function errorRestartButton() {
+    $('#errorRestartButton').on('click', function() {
+        console.log('errorRestartButton pressed');
+        $('.errorScreen').toggleClass('hidden');
+        $('.homeScreen').toggleClass('hidden');
+    })
+}
 function specificAdviceButton() {
     $('form').submit(function(event) {
         console.log('getAdviceButton pressed')
@@ -85,6 +99,7 @@ function watchButtons() {
     specificButton();
     specificAdviceButton();
     restartButton();
+    errorRestartButton();
 }
 function runPage() {
     watchButtons();
