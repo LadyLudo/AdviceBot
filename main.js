@@ -1,3 +1,22 @@
+const baseURL = 'https://api.adviceslip.com/advice'
+
+
+function APIRandomAdvice() {
+    fetch (baseURL)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error(response.statusText);
+        })
+        .then(responseJson => console.log(responseJson))
+        .catch(err => {
+            console.log(`something went wrong: ${err.message}`);
+        });
+
+}
+
+
 function getAdviceButton() {
     $('form').submit(function(event) {
         console.log('getAdviceButton pressed')
@@ -9,6 +28,7 @@ function getAdviceButton() {
 }
 function randomButton() {
     $('#randomButton').on('click', function() {
+        APIRandomAdvice();
         console.log('randomButton pressed');
         $('.homeScreen').toggleClass('hidden');
         $('.loadingScreen').toggleClass('hidden');
