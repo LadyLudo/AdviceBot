@@ -10,14 +10,19 @@
 
 </head>
 <body>
-    <div class="homeScreen">
+    <div class="homeScreen content">
         <h1>Hi! I'm Elli!</h1>
-        <img src="images/face_20191207_203307.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
+        <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
         <p>I give great advice. Would you like random advice or would you like to ask about a certain topic?</p>
         <div class="navButtons">
             <button type="button" id="randomButton">Random</button>
             <button type="button" id="specificButton">Specific</button>
         </div>
+    </div>
+    <div class="loadingScreen content hidden">
+        <img src="images/thinkingFace.png" alt="thinking face" class="botImage" height="500" width="500"/>
+        <p>Let me think...</p>
+        <div class="loader"></div>
     </div>
 
 <script
