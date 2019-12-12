@@ -40,9 +40,10 @@ function displayRandomAdvice(responseJson) {
 }
 function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
-        $('.adviceText').text(`"${responseJson.slips[0].advice}"`);
-        $('.loadingScreen').toggleClass('hidden');
-        $('.resultsScreen').toggleClass('hidden');
+    let i = Math.round(Math.random() * responseJson.slips.length);
+    $('.adviceText').text(`"${responseJson.slips[i].advice}"`);
+    $('.loadingScreen').toggleClass('hidden');
+    $('.resultsScreen').toggleClass('hidden');
 }
 
 function errorRestartButton() {

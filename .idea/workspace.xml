@@ -42,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576174253657</updated>
-      <workItem from="1576174255790" duration="10333000" />
+      <workItem from="1576174255790" duration="10915000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576190270095</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead.">
+      <created>1576191815537</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576191815537</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="finished random advice call&#10;+added reset button functionality" />
     <MESSAGE value="finished specific advice call and display" />
     <MESSAGE value="added error page and js functionality for missing advice slips" />
-    <option name="LAST_COMMIT_MESSAGE" value="added error page and js functionality for missing advice slips" />
+    <MESSAGE value="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead." />
   </component>
 </project>
