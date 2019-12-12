@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UtSAL2K2O095pwSJgd1qbisIQm" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="" />
+      <created>1576174253657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576174253657</updated>
+      <workItem from="1576174255790" duration="4734000" />
+    </task>
+    <task id="LOCAL-00001" summary="html boilerplate and connectivity">
+      <created>1576174345309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576174345309</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished basic home screen layout">
+      <created>1576182034850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576182034850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added loading screen&#10;+js functionality on random button">
+      <created>1576183113389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576183113389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added specific screen&#10;+js functionality on specificScreen button&#10;+js functionality on getAdvice button">
+      <created>1576184126567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576184126568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html boilerplate and connectivity" />
+    <MESSAGE value="finished basic home screen layout" />
+    <MESSAGE value="added loading screen&#10;+js functionality on random button" />
+    <MESSAGE value="added specific screen&#10;+js functionality on specificScreen button&#10;+js functionality on getAdvice button" />
+    <option name="LAST_COMMIT_MESSAGE" value="added specific screen&#10;+js functionality on specificScreen button&#10;+js functionality on getAdvice button" />
+  </component>
+</project>
