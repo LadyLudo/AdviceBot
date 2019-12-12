@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navButtons {
+    display: flex;
+}
+button{
+    margin: 10px;
+}
