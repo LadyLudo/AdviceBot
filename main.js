@@ -73,9 +73,6 @@ function randomButton() {
         $('.loadingScreen').toggleClass('hidden');
     })
 }
-function replayButton() {
-
-}
 function restartButton() {
     $('#restartButton').on('click', function (){
         console.log('restartButton pressed');
