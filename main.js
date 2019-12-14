@@ -50,7 +50,9 @@ function displaySpecificAdvice(responseJson) {
 function displayVideos(responseJson) {
     console.log(responseJson);
     for (let i=0; i<responseJson.items.length; i++) {
-        $(`#thumb${i}`).prop('src', responseJson.items[i].snippet.thumbnails.default.url);
+        $(`#thumb${i}`).prop('src', responseJson.items[i].snippet.thumbnails.high.url);
+        $(`#title${i}`).text(decodeURIComponent(responseJson.items[i].snippet.title).replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&'));
+        $(`#description${i}`).text(responseJson.items[i].snippet.description)
     }
 }
 function formatQueryParams(params) {

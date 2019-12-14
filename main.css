@@ -44,7 +44,7 @@ video {
     display: flex;
 }
 .thumb {
-    height: 70px;
+    height: 250px;
     border-radius: 4px;
 }
 .video {
@@ -56,6 +56,8 @@ video {
 .videos {
     display: flex;
     flex-direction: column;
+    width: 550px;
+    padding: 8px;
 }
 
 

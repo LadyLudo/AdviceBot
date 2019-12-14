@@ -44,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576174253657</updated>
-      <workItem from="1576174255790" duration="32316000" />
+      <workItem from="1576174255790" duration="34244000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576272141225</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added youtube API call&#10;+ added base html for displaying videos&#10;+ linked thumbnail images to video images">
+      <created>1576296643469</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576296643470</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +159,7 @@
     <MESSAGE value="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead." />
     <MESSAGE value="added random entry generator for specific advice" />
     <MESSAGE value="adjusted html and js for lack of TTS implementation&#10;+TTS is out of the scope of this assignment because it involves node.js and api calls that are not what's being taught right now. I'll put it on the stretch goal list and integrate another API instead." />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted html and js for lack of TTS implementation&#10;+TTS is out of the scope of this assignment because it involves node.js and api calls that are not what's being taught right now. I'll put it on the stretch goal list and integrate another API instead." />
+    <MESSAGE value="added youtube API call&#10;+ added base html for displaying videos&#10;+ linked thumbnail images to video images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added youtube API call&#10;+ added base html for displaying videos&#10;+ linked thumbnail images to video images" />
   </component>
 </project>
