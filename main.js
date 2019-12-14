@@ -34,16 +34,56 @@ function APISpecificAdvice(searchURL) {
 
 function displayRandomAdvice(responseJson) {
     console.log(responseJson);
-    $('.adviceText').text(`"${responseJson.slip.advice}`);
+    getVideos(responseJson.slip.advice);
+    $('.adviceText').text(`"${responseJson.slip.advice}"`);
     $('.loadingScreen').toggleClass('hidden');
     $('.resultsScreen').toggleClass('hidden');
 }
 function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
     let i = Math.round(Math.random() * responseJson.slips.length);
+    getVideos(responseJson.slips[i].advice);
     $('.adviceText').text(`"${responseJson.slips[i].advice}"`);
     $('.loadingScreen').toggleClass('hidden');
     $('.resultsScreen').toggleClass('hidden');
+}
+function displayVideos(responseJson) {
+    console.log(responseJson);
+    for (let i=0; i<responseJson.items.length; i++) {
+        $(`#thumb${i}`).prop('src', responseJson.items[i].snippet.thumbnails.default.url);
+    }
+}
+function formatQueryParams(params) {
+    const queryItems = Object.keys(params)
+        .map(key => `${key}=${params[key]}`)
+    return queryItems.join('&');
+}
+function getVideos(adviceText) {
+    $('.videoErrorMessage').empty();
+    let url= 'https://www.googleapis.com/youtube/v3/search';
+    let searchTerm = encodeURI(adviceText.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""));
+    let params = {
+        part: 'snippet',
+        key: 'AIzaSyAaNQoJ4Ns-TAIBQ5ksksOy4gnbTW3k1CM',
+        q: searchTerm,
+        maxResults: 3,
+        type: 'video',
+        order: 'Relevance',
+    };
+    let querystring = formatQueryParams(params);
+    let searchURL = url + '?' + querystring;
+    console.log(searchURL);
+    fetch (searchURL)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error(response.statusText);
+        })
+        .then(responseJson => displayVideos(responseJson));
+        /*.catch(function displayVideoErrorMessage() {
+            $('.videoErrorMessage').text("Sorry, I was unable to find videos about that advice.");
+        }*/
 }
 
 function errorRestartButton() {

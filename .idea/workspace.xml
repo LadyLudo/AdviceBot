@@ -4,6 +4,7 @@
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576174253657</updated>
-      <workItem from="1576174255790" duration="22145000" />
+      <workItem from="1576174255790" duration="32316000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576192237825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adjusted html and js for lack of TTS implementation&#10;+TTS is out of the scope of this assignment because it involves node.js and api calls that are not what's being taught right now. I'll put it on the stretch goal list and integrate another API instead.">
+      <created>1576272141224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576272141225</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +151,7 @@
     <MESSAGE value="added error page and js functionality for missing advice slips" />
     <MESSAGE value="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead." />
     <MESSAGE value="added random entry generator for specific advice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added random entry generator for specific advice" />
+    <MESSAGE value="adjusted html and js for lack of TTS implementation&#10;+TTS is out of the scope of this assignment because it involves node.js and api calls that are not what's being taught right now. I'll put it on the stretch goal list and integrate another API instead." />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted html and js for lack of TTS implementation&#10;+TTS is out of the scope of this assignment because it involves node.js and api calls that are not what's being taught right now. I'll put it on the stretch goal list and integrate another API instead." />
   </component>
 </project>
