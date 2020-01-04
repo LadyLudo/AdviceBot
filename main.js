@@ -37,7 +37,7 @@ function displayAudio(response) {
 }
 function displayRandomAdvice(responseJson) {
     console.log(responseJson);
-    getVideos(responseJson.slip.advice);
+/*    getVideos(responseJson.slip.advice);*/
     getAudio(responseJson.slip.advice);
     let advice = responseJson.slip.advice;
     $('.adviceText').text(`"${advice}"`);
@@ -47,7 +47,7 @@ function displayRandomAdvice(responseJson) {
 function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
     let i = Math.round(Math.random() * responseJson.slips.length);
-    getVideos(responseJson.slips[i].advice);
+  /*  getVideos(responseJson.slips[i].advice);*/
     getAudio(responseJson.slips[i].advice);
     $('.adviceText').text(`"${responseJson.slips[i].advice}"`);
     $('.loadingScreen').toggleClass('hidden');
@@ -82,7 +82,7 @@ function getAudio(adviceText) {
     });
 
 }
-function getVideos(adviceText) {
+/*function getVideos(adviceText) {
     $('.videoErrorMessage').empty();
     let url= 'https://www.googleapis.com/youtube/v3/search';
     let searchTerm = encodeURI(adviceText.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""));
@@ -105,10 +105,10 @@ function getVideos(adviceText) {
             throw new Error(response.statusText);
         })
         .then(responseJson => displayVideos(responseJson));
-        /*.catch(function displayVideoErrorMessage() {
+        /!*.catch(function displayVideoErrorMessage() {
             $('.videoErrorMessage').text("Sorry, I was unable to find videos about that advice.");
-        }*/
-}
+        }*!/
+}*/
 
 function errorRestartButton() {
     $('#errorRestartButton').on('click', function() {
