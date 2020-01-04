@@ -31,11 +31,16 @@ function APISpecificAdvice(searchURL) {
         });
 
 }
-
+function displayAudio(response) {
+    console.log(response);
+    $('#audio').attr("src",response.url).get(0).play();
+}
 function displayRandomAdvice(responseJson) {
     console.log(responseJson);
     getVideos(responseJson.slip.advice);
-    $('.adviceText').text(`"${responseJson.slip.advice}"`);
+    getAudio(responseJson.slip.advice);
+    let advice = responseJson.slip.advice;
+    $('.adviceText').text(`"${advice}"`);
     $('.loadingScreen').toggleClass('hidden');
     $('.resultsScreen').toggleClass('hidden');
 }
@@ -43,6 +48,7 @@ function displaySpecificAdvice(responseJson) {
     console.log(responseJson);
     let i = Math.round(Math.random() * responseJson.slips.length);
     getVideos(responseJson.slips[i].advice);
+    getAudio(responseJson.slips[i].advice);
     $('.adviceText').text(`"${responseJson.slips[i].advice}"`);
     $('.loadingScreen').toggleClass('hidden');
     $('.resultsScreen').toggleClass('hidden');
@@ -57,8 +63,24 @@ function displayVideos(responseJson) {
 }
 function formatQueryParams(params) {
     const queryItems = Object.keys(params)
-        .map(key => `${key}=${params[key]}`)
+        .map(key => `${key}=${params[key]}`);
     return queryItems.join('&');
+}
+function getAudio(adviceText) {
+    let audioAPIKey = "0f83c0855aea400a911ad0f1cc4da7fd";
+    let audioURL = `https://api.voicerss.org/?key=${audioAPIKey}&hl=en-ca&src=${adviceText}`;
+    fetch (audioURL)
+        .then(response => {
+            if (response.ok) {
+                return response;
+            }
+            throw new Error(response.statusText);
+        })
+        .then(response => displayAudio(response))
+        .catch(err => {
+        console.log(`something went wrong with audio: ${err.message}`);
+    });
+
 }
 function getVideos(adviceText) {
     $('.videoErrorMessage').empty();
@@ -66,7 +88,7 @@ function getVideos(adviceText) {
     let searchTerm = encodeURI(adviceText.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""));
     let params = {
         part: 'snippet',
-        key: 'AIzaSyAaNQoJ4Ns-TAIBQ5ksksOy4gnbTW3k1CM',
+        key: 'AIzaSyBrC317ICJQKMjYSFMJB6KKyuztjqIQ1t4',
         q: searchTerm,
         maxResults: 3,
         type: 'video',
