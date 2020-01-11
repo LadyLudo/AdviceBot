@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Advice App</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="main.css">
 
@@ -21,7 +21,7 @@
     <img src="images/FAVPNG_crystal-ball-snowflake-data-compression_0xKL3G1U.png" id="crystalBall"/>
     <div class="homeScreen content">
         <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
-        <p>I give great advice. Would you like random advice or would you like to ask about a certain topic?</p>
+        <p class="botText">I give great advice. Would you like random advice or would you like to ask about a certain topic?</p>
         <div class="navButtons">
             <button type="button" id="randomButton">Random</button>
             <button type="button" id="specificButton">Specific</button>
@@ -29,12 +29,12 @@
     </div>
     <div class="loadingScreen content hidden">
         <img src="images/thinkingFace.png" alt="girl face thinking" class="botImage" height="500" width="500"/>
-        <p>Let me think...</p>
+        <p class="botText">Let me think...</p>
         <div class="loader"></div>
     </div>
     <div class="specificScreen content hidden">
         <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
-        <p>What topic would you like advice on?</p>
+        <p class="botText">What topic would you like advice on?</p>
         <form>
             <input type="text" name="category" value="love"><br>
             <input type="submit" value="Get Advice!">
@@ -42,8 +42,8 @@
     </div>
     <div class="resultsScreen content hidden">
         <img src="images/resultsFace.png" alt="girl pointing" class="botImage" height="500" width="500"/>
-        <p>Here's my advice!</p>
-        <p class="adviceText"></p>
+        <p class="botText">Here's my advice!</p>
+        <p class="adviceText botText"></p>
         <audio id= "audio" class= 'hidden' src="" controls></audio>
         <div class="navButtons">
             <button type="button" id="restartButton">More Advice!</button>
@@ -51,7 +51,7 @@
     </div>
     <div class="errorScreen content hidden">
         <img src="images/ohnoFace.png" alt="girl with shocked face" class="botImage" height="500" width="500"/>
-        <p class="errorMessage"></p>
+        <p class="errorMessage botText"></p>
         <button type="button" id="errorRestartButton">Try Again!</button>
     </div>
 <script
