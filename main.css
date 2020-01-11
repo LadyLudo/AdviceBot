@@ -38,7 +38,13 @@ form {
 .navButtons {
     display: flex;
 }
-
+#crystalBall {
+    position: fixed;
+    align-self: center;
+    height: 1200px;
+    margin-top: 200px;
+    z-index: -1;
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }

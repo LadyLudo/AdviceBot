@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <workItem from="1578594201054" duration="1245000" />
       <workItem from="1578672946470" duration="4420000" />
       <workItem from="1578715291856" duration="5857000" />
-      <workItem from="1578721166906" duration="1956000" />
+      <workItem from="1578721166906" duration="5922000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578720902858</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="minor changes&#10;+font color and styling">
+      <created>1578725209965</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578725209965</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,20 +226,21 @@
     <MESSAGE value="Found Audio API&#10;+ Connected audio api and autoplay for advice" />
     <MESSAGE value="Commented out Video section&#10;+ I don't think it adds anything to the app as it is." />
     <MESSAGE value="Added background styling&#10;+added CSS animated stars&#10;+configured title &#10;+removed some css associated with past video features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added background styling&#10;+added CSS animated stars&#10;+configured title &#10;+removed some css associated with past video features" />
+    <MESSAGE value="minor changes&#10;+font color and styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes&#10;+font color and styling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578720902331">
+    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578725209534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578720902331" />
+    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578725209534" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578725176394">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578775372015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578725176394" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578775372015" />
   </component>
 </project>
