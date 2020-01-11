@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="Commented out Video section&#10;+ I don't think it adds anything to the app as it is.">
-      <change afterPath="$PROJECT_DIR$/background.css" afterDir="false" />
+    <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,8 @@
       <workItem from="1578103451441" duration="14180000" />
       <workItem from="1578594201054" duration="1245000" />
       <workItem from="1578672946470" duration="4420000" />
-      <workItem from="1578715291856" duration="5342000" />
+      <workItem from="1578715291856" duration="5857000" />
+      <workItem from="1578721166906" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578115145890</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added background styling&#10;+added CSS animated stars&#10;+configured title &#10;+removed some css associated with past video features">
+      <created>1578720902858</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578720902858</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,20 +217,21 @@
     <MESSAGE value="connected api info to videos&#10;+de-encoded the title strings to put them into readable format" />
     <MESSAGE value="Found Audio API&#10;+ Connected audio api and autoplay for advice" />
     <MESSAGE value="Commented out Video section&#10;+ I don't think it adds anything to the app as it is." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented out Video section&#10;+ I don't think it adds anything to the app as it is." />
+    <MESSAGE value="Added background styling&#10;+added CSS animated stars&#10;+configured title &#10;+removed some css associated with past video features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added background styling&#10;+added CSS animated stars&#10;+configured title &#10;+removed some css associated with past video features" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578720575436">
+    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578720902331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578720575436" />
+    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578720902331" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578720830479">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578725176394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578720830479" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578725176394" />
   </component>
 </project>

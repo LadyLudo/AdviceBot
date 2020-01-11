@@ -4,8 +4,9 @@
 body {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
+    font-family: "lato", sans-serif;
+    color: #FFFFFF;
 }
 button{
     margin: 10px;
