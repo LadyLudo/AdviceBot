@@ -4,10 +4,9 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
 }
-
 button{
     margin: 10px;
 }
@@ -16,11 +15,6 @@ form {
     display: flex;
     flex-direction: column;
 }
-video {
-    height: 200px;
-    width: 400px;
-}
-
 .content {
     display: flex;
     flex-direction: column;
@@ -43,25 +37,55 @@ video {
 .navButtons {
     display: flex;
 }
-.thumb {
-    height: 250px;
-    border-radius: 4px;
-}
-.video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.videos {
-    display: flex;
-    flex-direction: column;
-    width: 550px;
-    padding: 8px;
-}
 
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05,1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05,1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
 }
