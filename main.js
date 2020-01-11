@@ -35,11 +35,11 @@ function displayAudio(response) {
     console.log(response);
     const audio = $('#audio');
     $('#audio').attr("src",response.url).get(0).play();
-    $('.botImage').toggleClass("pulse animated");
+    $('.botImage').addClass("pulse animated");
     $('#audio').on('ended', function() {
         console.log('audio ended');
         console.log(audio.duration);
-        $('.botImage').toggleClass("pulse animated");
+        $('.botImage').removeClass("pulse animated");
     });
 
 }
@@ -105,6 +105,7 @@ function randomButton() {
 function restartButton() {
     $('#restartButton').on('click', function (){
         console.log('restartButton pressed');
+        $('.botImage').removeClass("pulse animated");
         $('.resultsScreen').toggleClass('hidden');
         $('.homeScreen').toggleClass('hidden');
     })
