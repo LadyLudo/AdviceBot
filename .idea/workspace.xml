@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/background.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
@@ -70,7 +69,7 @@
       <workItem from="1578672946470" duration="4420000" />
       <workItem from="1578715291856" duration="5857000" />
       <workItem from="1578721166906" duration="8114000" />
-      <workItem from="1578788188215" duration="4908000" />
+      <workItem from="1578788188215" duration="6363000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578798037505</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Finished media breakpoints&#10;+resized image for breakpoints, this seems to align the rest of the content to match.&#10;+Fixed overflow of background stars - no more refresh issues.">
+      <created>1578801138369</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578801138369</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,20 +282,21 @@
     <MESSAGE value="changed js pulse code&#10;+removed toggleClass in favor of add/remove class&#10;+added removeClass to button press to stop pulse on click as well as on end." />
     <MESSAGE value="Styled buttons on all screens" />
     <MESSAGE value="Added media breakpoints&#10;+minor size changes for images and advice text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added media breakpoints&#10;+minor size changes for images and advice text" />
+    <MESSAGE value="Finished media breakpoints&#10;+resized image for breakpoints, this seems to align the rest of the content to match.&#10;+Fixed overflow of background stars - no more refresh issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished media breakpoints&#10;+resized image for breakpoints, this seems to align the rest of the content to match.&#10;+Fixed overflow of background stars - no more refresh issues." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1014" y="109" key="CommitChangelistDialog2" timestamp="1578798037103">
+    <state x="1014" y="109" key="CommitChangelistDialog2" timestamp="1578801137894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1014" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578798037103" />
+    <state x="1014" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578801137894" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578801074836">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578802590408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578801074836" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578802590408" />
   </component>
 </project>

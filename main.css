@@ -166,4 +166,7 @@ form {
         height: 35%;
         width: 35%;
     }
+    #crystalBall {
+        height: 1100px;
+    }
 }
