@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshots/screenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1578672946470" duration="4420000" />
       <workItem from="1578715291856" duration="5857000" />
       <workItem from="1578721166906" duration="8114000" />
-      <workItem from="1578788188215" duration="6629000" />
+      <workItem from="1578788188215" duration="6880000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578802598901</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added screenshot.png">
+      <created>1578802730840</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1578802730840</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,20 +296,21 @@
     <MESSAGE value="Styled buttons on all screens" />
     <MESSAGE value="Added media breakpoints&#10;+minor size changes for images and advice text" />
     <MESSAGE value="Finished media breakpoints&#10;+resized image for breakpoints, this seems to align the rest of the content to match.&#10;+Fixed overflow of background stars - no more refresh issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished media breakpoints&#10;+resized image for breakpoints, this seems to align the rest of the content to match.&#10;+Fixed overflow of background stars - no more refresh issues." />
+    <MESSAGE value="Added screenshot.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added screenshot.png" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1578802598455">
+    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1578802730453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578802598455" />
+    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578802730453" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578802720180">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578802991416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578802720180" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578802991416" />
   </component>
 </project>

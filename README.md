@@ -5,3 +5,6 @@ https://ladyludo.github.io/Capstone1/
 This is a bot that gives advice from the advice slip API. You can choose random or from a specific topic. After you ask, it will read the advice aloud to you.
 
 Screenshot:
+![Landing Page](screenshots/screenshot.png?raw=true)
+
+This project uses HTML, CSS, and JavaScript with jQuery.
