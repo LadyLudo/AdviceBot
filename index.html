@@ -21,10 +21,10 @@
     <img src="images/FAVPNG_crystal-ball-snowflake-data-compression_0xKL3G1U.png" id="crystalBall"/>
     <div class="homeScreen content">
         <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
-        <p class="botText">I give great advice. Would you like random advice or would you like to ask about a certain topic?</p>
+        <p class="botText">I give great advice. Would you like to try?</p>
         <div class="navButtons">
-            <button type="button" id="randomButton">Random</button>
-            <button type="button" id="specificButton">Specific</button>
+            <button type="button" class="buttonAnim" id="randomButton">Random</button>
+            <button type="button" class="buttonAnim" id="specificButton">Specific</button>
         </div>
     </div>
     <div class="loadingScreen content hidden">
@@ -37,7 +37,7 @@
         <p class="botText">What topic would you like advice on?</p>
         <form>
             <input type="text" name="category" value="love"><br>
-            <input type="submit" value="Get Advice!">
+            <input type="submit" class="buttonAnim" value="Get Advice!">
         </form>
     </div>
     <div class="resultsScreen content hidden">
@@ -46,13 +46,13 @@
         <p class="adviceText botText"></p>
         <audio id= "audio" class= 'hidden' src="" controls></audio>
         <div class="navButtons">
-            <button type="button" id="restartButton">More Advice!</button>
+            <button type="button" id="restartButton" class="buttonAnim">More Advice!</button>
         </div>
     </div>
     <div class="errorScreen content hidden">
         <img src="images/ohnoFace.png" alt="girl with shocked face" class="botImage" height="500" width="500"/>
         <p class="errorMessage botText"></p>
-        <button type="button" id="errorRestartButton">Try Again!</button>
+        <button type="button" id="errorRestartButton" class="buttonAnim">Try Again!</button>
     </div>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"

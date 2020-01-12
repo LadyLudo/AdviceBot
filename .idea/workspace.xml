@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/FAVPNG_crystal-ball-snowflake-data-compression_0xKL3G1U.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,8 @@
       <workItem from="1578594201054" duration="1245000" />
       <workItem from="1578672946470" duration="4420000" />
       <workItem from="1578715291856" duration="5857000" />
-      <workItem from="1578721166906" duration="7220000" />
+      <workItem from="1578721166906" duration="8114000" />
+      <workItem from="1578788188215" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -201,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578776469929</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added crystal ball image to Git">
+      <created>1578776500701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578776500701</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed js pulse code&#10;+removed toggleClass in favor of add/remove class&#10;+added removeClass to button press to stop pulse on click as well as on end.">
+      <created>1578776757075</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578776757075</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,20 +257,22 @@
     <MESSAGE value="minor changes&#10;+font color and styling" />
     <MESSAGE value="Added Crystal Ball img&#10;+centered and resized, z-indexed back" />
     <MESSAGE value="Added new font for advice&#10;+sized all paragraphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new font for advice&#10;+sized all paragraphs" />
+    <MESSAGE value="Added crystal ball image to Git" />
+    <MESSAGE value="changed js pulse code&#10;+removed toggleClass in favor of add/remove class&#10;+added removeClass to button press to stop pulse on click as well as on end." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed js pulse code&#10;+removed toggleClass in favor of add/remove class&#10;+added removeClass to button press to stop pulse on click as well as on end." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578776500279">
+    <state x="1065" y="109" key="CommitChangelistDialog2" timestamp="1578776756665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578776500279" />
+    <state x="1065" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578776756665" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578776683570">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578788868531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578776683570" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578788868531" />
   </component>
 </project>
