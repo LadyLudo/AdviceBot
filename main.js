@@ -34,11 +34,10 @@ function APISpecificAdvice(searchURL) {
 function displayAudio(response) {
     console.log(response);
     const audio = $('#audio');
-    $('#audio').attr("src",response.url).get(0).play();
+    audio.attr("src",response.url).get(0).play();
     $('.botImage').addClass("pulse animated");
-    $('#audio').on('ended', function() {
+    audio.on('ended', function() {
         console.log('audio ended');
-        console.log(audio.duration);
         $('.botImage').removeClass("pulse animated");
     });
 
