@@ -13,7 +13,7 @@ html {
 #stars:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -30,7 +30,7 @@ html {
 #stars2:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -47,7 +47,7 @@ html {
 #stars3:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -63,7 +63,7 @@ html {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 20px;
     letter-spacing: 10px;
     margin-top: 10px;
     padding-left: 10px;
