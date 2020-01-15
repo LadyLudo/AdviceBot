@@ -1,6 +1,4 @@
 const baseURL = 'https://api.adviceslip.com/advice'
-
-
 function APIRandomAdvice(searchURL) {
     fetch (searchURL)
         .then(response => {
@@ -13,7 +11,6 @@ function APIRandomAdvice(searchURL) {
         .catch(err => {
             console.log(`something went wrong: ${err.message}`);
         });
-
 }
 function APISpecificAdvice(searchURL) {
     fetch (searchURL)
@@ -29,21 +26,16 @@ function APISpecificAdvice(searchURL) {
             $('.loadingScreen').toggleClass('hidden');
             $('.errorScreen').toggleClass('hidden');
         });
-
 }
 function displayAudio(response) {
-    console.log(response);
     const audio = $('#audio');
     audio.attr("src",response.url).get(0).play();
     $('.botImage').addClass("pulse animated");
     audio.on('ended', function() {
-        console.log('audio ended');
         $('.botImage').removeClass("pulse animated");
     });
-
 }
 function displayRandomAdvice(responseJson) {
-    console.log(responseJson);
     getAudio(responseJson.slip.advice);
     const advice = responseJson.slip.advice;
     $('.adviceText').text(`"${advice}"`);
@@ -51,7 +43,6 @@ function displayRandomAdvice(responseJson) {
     $('.resultsScreen').toggleClass('hidden');
 }
 function displaySpecificAdvice(responseJson) {
-    console.log(responseJson);
     let i = Math.round(Math.random() * responseJson.slips.length);
     getAudio(responseJson.slips[i].advice);
     $('.adviceText').text(`"${responseJson.slips[i].advice}"`);
@@ -72,18 +63,15 @@ function getAudio(adviceText) {
         .catch(err => {
         console.log(`something went wrong with audio: ${err.message}`);
     });
-
 }
 function errorRestartButton() {
     $('#errorRestartButton').on('click', function() {
-        console.log('errorRestartButton pressed');
         $('.errorScreen').toggleClass('hidden');
         $('.homeScreen').toggleClass('hidden');
     })
 }
 function specificAdviceButton() {
     $('form').submit(function(event) {
-        console.log('getAdviceButton pressed')
         event.preventDefault();
         const query = $('input[name=category]').val();
         const searchURL = baseURL + '/search/' + query;
@@ -96,14 +84,12 @@ function specificAdviceButton() {
 function randomButton() {
     $('#randomButton').on('click', function() {
         APIRandomAdvice(baseURL);
-        console.log('randomButton pressed');
         $('.homeScreen').toggleClass('hidden');
         $('.loadingScreen').toggleClass('hidden');
     })
 }
 function restartButton() {
     $('#restartButton').on('click', function (){
-        console.log('restartButton pressed');
         $('.botImage').removeClass("pulse animated");
         $('.resultsScreen').toggleClass('hidden');
         $('.homeScreen').toggleClass('hidden');
@@ -111,13 +97,10 @@ function restartButton() {
 }
 function specificButton() {
     $('#specificButton').on('click', function() {
-        console.log('specificButton pressed');
         $('.homeScreen').toggleClass('hidden');
         $('.specificScreen').toggleClass('hidden');
     })
 }
-
-
 function watchButtons() {
     randomButton();
     specificButton();
@@ -127,7 +110,5 @@ function watchButtons() {
 }
 function runPage() {
     watchButtons();
-    console.log('Page Loaded. Waiting for input.')
 }
-
 $(runPage());
