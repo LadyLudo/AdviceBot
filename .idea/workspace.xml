@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52cf318f-1959-4967-bdbf-7645d195025c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,8 @@
       <workItem from="1578715291856" duration="5857000" />
       <workItem from="1578721166906" duration="8114000" />
       <workItem from="1578788188215" duration="7770000" />
-      <workItem from="1579123770602" duration="282000" />
+      <workItem from="1579123770602" duration="372000" />
+      <workItem from="1579277804257" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578803824291</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Fixed some issues in main.js&#10;+removed console.logs&#10;+removed spaces and fixed indentation issues">
+      <created>1579124097408</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579124097408</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +309,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added results screen&#10;+initial random advice fetch" />
     <MESSAGE value="finished random advice call&#10;+added reset button functionality" />
     <MESSAGE value="finished specific advice call and display" />
     <MESSAGE value="added error page and js functionality for missing advice slips" />
@@ -326,20 +333,21 @@
     <MESSAGE value="Updated screenshot" />
     <MESSAGE value="changed repo name" />
     <MESSAGE value="finalized code editing &#10;+removed some unneccesary code" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalized code editing &#10;+removed some unneccesary code" />
+    <MESSAGE value="Fixed some issues in main.js&#10;+removed console.logs&#10;+removed spaces and fixed indentation issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some issues in main.js&#10;+removed console.logs&#10;+removed spaces and fixed indentation issues" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1578803823871">
+    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1579124096942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578803823871" />
+    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579124096942" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579124052079">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579278786005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579124052079" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579278786005" />
   </component>
 </project>

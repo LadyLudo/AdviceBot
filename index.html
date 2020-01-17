@@ -13,46 +13,47 @@
 </head>
 
 <body>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div><h1 id="title">Hi! I'm Elli!</h1></div>
-
     <img src="images/FAVPNG_crystal-ball-snowflake-data-compression_0xKL3G1U.png" alt="Transparent crystal ball" id="crystalBall"/>
-    <div class="homeScreen content">
-        <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
-        <p class="botText">I give great advice. Would you like to try?</p>
-        <div class="navButtons">
-            <button type="button" class="buttonAnim" id="randomButton">Random</button>
-            <button type="button" class="buttonAnim" id="specificButton">Specific</button>
-        </div>
-    </div>
-    <div class="loadingScreen content hidden">
-        <img src="images/thinkingFace.png" alt="girl face thinking" class="botImage" height="500" width="500"/>
-        <p class="botText">Let me think...</p>
-        <div class="loader"></div>
-    </div>
-    <div class="specificScreen content hidden">
-        <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
-        <p class="botText">What topic would you like advice on?</p>
-        <form>
-            <input type="text" name="category" value="love"><br>
-            <input type="submit" class="buttonAnim" value="Get Advice!">
-        </form>
-    </div>
-    <div class="resultsScreen content hidden">
-        <img src="images/resultsFace.png" alt="girl pointing" class="botImage" height="500" width="500"/>
-        <p class="adviceText botText"></p>
-        <audio id= "audio" class= "hidden" src="" controls></audio>
-        <div class="navButtons">
-            <button type="button" id="restartButton" class="buttonAnim">More Advice!</button>
-        </div>
-    </div>
-    <div class="errorScreen content hidden">
-        <img src="images/ohnoFace.png" alt="girl with shocked face" class="botImage" height="500" width="500"/>
-        <p class="errorMessage botText"></p>
-        <button type="button" id="errorRestartButton" class="buttonAnim">Try Again!</button>
-    </div>
+    <main aria-live="polite">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <header><h1 id="title">Hi! I'm Elli!</h1></header>]
+        <section class="homeScreen content">
+            <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
+            <p class="botText">I give great advice. Would you like to try?</p>
+            <div class="navButtons">
+                <button type="button" class="buttonAnim" id="randomButton">Random</button>
+                <button type="button" class="buttonAnim" id="specificButton">Specific</button>
+            </div>
+        </section>
+        <section class="loadingScreen content hidden">
+            <img src="images/thinkingFace.png" alt="girl face thinking" class="botImage" height="500" width="500"/>
+            <p class="botText">Let me think...</p>
+            <div class="loader"></div>
+        </section>
+        <section class="specificScreen content hidden">
+            <img src="images/wavingFace.png" alt="smiling girl waving" class="botImage" height="500" width="500"/>
+            <form>
+                <label for="topic" class="botText">What topic would you like advice on?</label>
+                <input id="topic" type="text" name="category" placeholder="love"><br>
+                <input type="submit" class="buttonAnim" value="Get Advice!">
+            </form>
+        </section>
+        <section class="resultsScreen content hidden">
+            <img src="images/resultsFace.png" alt="girl pointing" class="botImage" height="500" width="500"/>
+            <p class="adviceText botText"></p>
+            <audio id= "audio" class= "hidden" src="" controls></audio>
+            <div class="navButtons">
+                <button type="button" id="restartButton" class="buttonAnim">More Advice!</button>
+            </div>
+        </section>
+        <section class="errorScreen content hidden">
+            <img src="images/ohnoFace.png" alt="girl with shocked face" class="botImage" height="500" width="500"/>
+            <p class="errorMessage botText"></p>
+            <button type="button" id="errorRestartButton" class="buttonAnim">Try Again!</button>
+        </section>
+    </main>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
