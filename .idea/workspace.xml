@@ -70,7 +70,7 @@
       <workItem from="1578721166906" duration="8114000" />
       <workItem from="1578788188215" duration="7770000" />
       <workItem from="1579123770602" duration="372000" />
-      <workItem from="1579277804257" duration="889000" />
+      <workItem from="1579277804257" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="html boilerplate and connectivity">
       <created>1576174345309</created>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579124097408</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Fixed accessibility&#10;+Added label to specific advice&#10;+changed divs to sections and added main&#10;+added aria-live to main">
+      <created>1579278846759</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579278846759</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +316,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished random advice call&#10;+added reset button functionality" />
     <MESSAGE value="finished specific advice call and display" />
     <MESSAGE value="added error page and js functionality for missing advice slips" />
     <MESSAGE value="fixed error page&#10;It was stopping specificAdvice from loading so I put it in a catch instead." />
@@ -334,20 +340,21 @@
     <MESSAGE value="changed repo name" />
     <MESSAGE value="finalized code editing &#10;+removed some unneccesary code" />
     <MESSAGE value="Fixed some issues in main.js&#10;+removed console.logs&#10;+removed spaces and fixed indentation issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some issues in main.js&#10;+removed console.logs&#10;+removed spaces and fixed indentation issues" />
+    <MESSAGE value="Fixed accessibility&#10;+Added label to specific advice&#10;+changed divs to sections and added main&#10;+added aria-live to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed accessibility&#10;+Added label to specific advice&#10;+changed divs to sections and added main&#10;+added aria-live to main" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1579124096942">
+    <state x="951" y="109" key="CommitChangelistDialog2" timestamp="1579278846319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579124096942" />
+    <state x="951" y="109" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579278846319" />
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578673637568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578673637568" />
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579278786005">
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579279173041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579278786005" />
+    <state x="1249" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579279173041" />
   </component>
 </project>
